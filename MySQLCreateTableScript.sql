@@ -1,0 +1,10 @@
+USE Financials;
+CREATE TABLE `UserFinancials_one` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `NAME` varchar(50) NOT NULL,
+  `FD_AMT` varchar(50) NOT NULL,
+  `BUY_DT` datetime DEFAULT CURRENT_TIMESTAMP,
+  `ROI` varchar(50) DEFAULT NULL,
+  `TOTAL_AMT` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
